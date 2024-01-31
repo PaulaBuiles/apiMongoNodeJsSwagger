@@ -1,0 +1,25 @@
+###
+POST http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+{}
+
+###
+GET http://localhost:9000/api/users HTTP/1.1
+
+###
+GET http://localhost:9000/api/users/65b7b88a4951565105f0aa0c HTTP/1.1
+
+###
+DELETE http://localhost:9000/api/users/65b7bbb961c4613ed562cfb1 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/users/65b7b88a4951565105f0aa0c HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Paula Andrea Builes",
+  "age": 20,
+  "email": "paulabuiles@email.com"
+}
+
